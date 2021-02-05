@@ -20,6 +20,9 @@ import {
 const App: () => React$Node = () => {
   return (
     <ScrollView style={styles.scrollView}>
+    <View style={styles.sectionHeader}>
+      <Text style={styles.sectionTitle}>Todo App</Text>
+    </View>
     <View style={styles.sectionContainer}>
       <Text style={styles.sectionTitle}>Estudando React</Text>
       <Text style={styles.sectionDescription}>Lorem ipsum dolot semet...</Text>
@@ -59,6 +62,12 @@ const styles = StyleSheet.create({
   },
   body: {
     backgroundColor: '#333',
+  },
+  sectionHeader: {
+    backgroundColor: 'red',
+    textAlign: 'center',
+    justifyContent: 'center',
+    padding: 5
   },
   sectionContainer: {
     marginTop: 32,
