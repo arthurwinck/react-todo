@@ -1,3 +1,6 @@
 # react-todo
 simple react native todo list
-[tutorial](https://www.youtube.com/watch?v=XcU9GEUZTQA)
+
+[Tutorial](https://www.youtube.com/watch?v=XcU9GEUZTQA) - Vídeo Rocketseat
+
+[Instalação](http://react-native.rocketseat.dev/) - React Native e Emulador iOS/Android
